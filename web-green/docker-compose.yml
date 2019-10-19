@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  web-green:
+    image: chomjun/nginx:demo-green
+    ports:
+      - "4082:80"
+    deploy:
+      replicas: 1
+
