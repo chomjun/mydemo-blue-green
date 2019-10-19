@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  web-blue:
+    image: chomjun/nginx:demo-blue
+    ports:
+      - "4081:80"
+    deploy:
+      replicas: 1
+
