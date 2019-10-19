@@ -4,7 +4,7 @@ services:
   proxy-lb:
     image: nginx:alpine
     volumes:
-      - /opt/github/mydemo-blue-green/proxy-lb/nginx.conf:/etc/nginx/nginx.conf
+      - /opt/demo-web/proxy-lb/mydemo-blue-green/proxy-lb/nginx.conf:/etc/nginx/nginx.conf
     ports:
       - "4080:80"
     deploy:
