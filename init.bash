@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASE_DIR=/opt/github/mydemo-blue-green
+BASE_DIR=$(pwd)
 GW_DIR=${BASE_DIR}/proxy-lb
 BLUE_DIR=${BASE_DIR}/web-blue
 GREEN_DIR=${BASE_DIR}/web-green
